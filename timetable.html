@@ -25,6 +25,16 @@
             {border: 1px solid black;
             height:50px;
             border-collapse : collapse;}
+        .알바 
+            {background-color: orchid}
+        .멋사 
+            {background-color: coral;}
+        .공부 
+            {background-color: cadetblue;}
+        .운동
+            {background-color: yellow;}
+        .할일
+            {background-color: deeppink;}
     </style>
     <table>
         <thead>
@@ -41,20 +51,20 @@
         <tbody>
             <tr>
                 <th>10:00 ~ 11:00</td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
+                <td class="운동">운동</td>
+                <td class="공부", rowspan="2">공부</td>
+                <td class="운동">운동</td>
+                <td class="공부", rowspan="2">공부</td>
+                <td class="운동">운동</td>
             </tr>
             <tr>
                 <th>11:00 ~ 12:00</td>
+                <td class="공부", rowspan="2">공부</td>
+                <td class="공부", rowspan="2">공부</td>
+                <td class="공부", rowspan="2">공부</td>
             </tr>
             <tr>
                 <th>12:00 ~ 13:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
                 <td></td>
                 <td></td>
             </tr>
@@ -68,29 +78,20 @@
             </tr>
             <tr>
                 <th>14:00 ~ 15:00</td>
-                <td style="background-color: azure;", rowspan="4">알바</td>
-                <td style="background-color: azure;", rowspan="4">알바</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="알바", rowspan="4">알바</td>
+                <td class="알바", rowspan="4">알바</td>
+                <td class="할일", rowspan="4">할일</td>
+                <td class="할일", rowspan="4">할일</td>
+                <td class="할일", rowspan="4">할일</td>
             </tr>
             <tr>
                 <th>15:00 ~ 16:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
                 <th>16:00 ~ 17:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
                 <th>17:00 ~ 18:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
                 <th>18:00 ~ 19:00</td>
@@ -102,18 +103,14 @@
             </tr>
             <tr>
                 <th>19:00 ~ 20:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="할일", rowspan="2">할일</td>
+                <td class="할일", rowspan="2">할일</td>
+                <td class="할일", rowspan="2">할일</td>
+                <td class="멋사", rowspan="2">멋사</td>
                 <td></td>
             </tr>
             <tr>
                 <th>20:00 ~ 21:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
                 <td></td>
             </tr>
         </tbody>
